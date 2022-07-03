@@ -1,0 +1,96 @@
+body{
+    background-color:#c6cfc8;
+}
+.tab-cont{
+    width: 80%;
+    height: 450px;
+   position: relative;
+   margin: 100px auto;
+   background-color: #f2f0f0;
+   overflow: hidden;
+   
+
+}
+.button-con{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    
+}
+.button-con button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    position: absolute;
+    transform: translateX(100%);
+
+
+}
+#content1{
+    transform: translateX(0px);
+    
+   
+}
+#content2{
+    transform: translateX(0px);
+}
+#content3{
+    transform: translateX(0px);
+}
+#content4{
+    transform: translateX(0px);
+}
+.Content-left{
+    flex-basis: 50%;
+
+}
+.Content-right{
+    flex-basis: 50%;
+    text-align: center;
+
+}
+.Content-left p {
+    font-size: 13px;
+    padding: 30px 0;
+}
+.Content-left a {
+   width: 150px;
+   display: block;
+   padding: 8px 5px;
+   border-radius: 20px;
+   text-decoration: none;
+   background-color: #ff7846;
+   color: #fff;
+   text-align: center;
+}
+.Content-right{
+    flex-basis: 50%;
+    text-align: center;
+    
+}
+#btn1{
+    color: #ff7846;
+
+}
+#btn2{
+    color: #ff7846;
+    
+}
+#btn3{
+    color: #ff7846;
+    
+}
+#btn4{
+    color: #ff7846;
+    
+}
